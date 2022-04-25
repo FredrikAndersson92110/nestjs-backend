@@ -1,0 +1,24 @@
+### Post a report 
+POST http://localhost:3000/reports
+content-type: application/json 
+
+{
+  "make": "Ford", 
+  "model": "Mustang", 
+  "year": 1982,
+  "mileage": 50000,
+  "lng": 45, 
+  "lat": 45, 
+  "price": 20000
+}
+
+### Change approval of a report
+PATCH http://localhost:3000/reports/1
+content-type: application/json
+
+{
+  "approved": true
+}
+
+### Get an estimate of an existing vehicle 
+GET http://localhost:3000/reports?make=Ford&model=Mustang&year=1983&mileage=20000&lng=43&lat=43
