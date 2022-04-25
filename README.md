@@ -24,6 +24,9 @@
 
 ## Description
 
+A complete node js backend using NestJS, fully operational. Test, Development and Production environments. 
+Controllers, Middlewares, Guards, Interceptors, Custom Decorators, Custom Interceptors, Dtos, migrations... 
+
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
